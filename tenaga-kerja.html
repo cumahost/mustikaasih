@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tenaga Kerja - Mustika Asih</title>
-  <meta name="description" content="Tenaga kerja lokal Mustika Asih merupakan bagian penting dari komitmen kami terhadap pemberdayaan masyarakat.">
+  <meta name="description" content="Tim tenaga kerja Mustika Asih siap membantu proses penggilingan dan penjemuran padi secara profesional dan amanah.">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -37,6 +37,7 @@
       background-color: #fff;
       padding: 2rem;
       border-radius: 8px;
+      margin-bottom: 40px;
     }
     .footer-cols {
       display: flex;
@@ -58,7 +59,19 @@
       text-align: center;
       margin-bottom: 1rem;
     }
+    .illustration-right {
+      float: right;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      max-width: 300px;
+      border-radius: 8px;
+    }
     @media (max-width: 768px) {
+      .illustration-right {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+      }
       .footer-cols {
         flex-direction: column;
         align-items: center;
@@ -78,16 +91,6 @@
       }
     }
   </style>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const currentPage = location.pathname.split('/').pop();
-      document.querySelectorAll('nav .nav-link').forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
-          link.classList.add('fw-bold', 'text-primary');
-        }
-      });
-    });
-  </script>
 </head>
 <body>
   <header class="py-2 shadow-sm">
@@ -108,14 +111,16 @@
   </header>
 
   <section class="hero text-center">
-    <h1>Tenaga Kerja Lokal Berkualitas</h1>
+    <h1>Tenaga Kerja</h1>
   </section>
 
   <main class="container py-5">
-    <h2 class="mb-4">Pemberdayaan dan Profesionalisme</h2>
-    <p>Mustika Asih memberdayakan tenaga kerja lokal yang terampil dan berdedikasi untuk mendukung semua proses operasional kami, mulai dari penjemuran, penggilingan, hingga distribusi beras.</p>
-    <p>Kami percaya bahwa kualitas layanan berasal dari orang-orang yang bekerja dengan hati. Oleh karena itu, kami tidak hanya menyediakan lapangan kerja tetapi juga membina mereka agar terus berkembang dalam bidang pertanian dan logistik.</p>
-    <p>Tim kami siap membantu Anda dengan ramah dan tanggap di lokasi maupun saat berkomunikasi melalui kontak yang tersedia.</p>
+    <img src="assets/img/tenaga.jpg" alt="Tenaga Kerja Mustika Asih" class="illustration-right">
+    <h2 class="mb-4">Tim Kerja yang Terlatih & Terpercaya</h2>
+    <p>Mustika Asih didukung oleh tenaga kerja lokal yang memiliki pengalaman dalam pengelolaan padi, mulai dari proses jemur hingga penggilingan.</p>
+    <p>Setiap anggota tim dilatih untuk menangani padi dengan hati-hati, bersih, dan sesuai prosedur kebersihan pangan.</p>
+    <p>Kami memastikan seluruh staf menjalankan pekerjaannya dengan semangat dan penuh tanggung jawab demi kepuasan pelanggan.</p>
+    <p>Jika Anda tertarik bekerja sama atau ingin mengetahui lebih jauh tentang layanan kami, jangan ragu <a href="kontak.html">menghubungi kami</a>.</p>
   </main>
 
   <footer>
@@ -135,7 +140,7 @@
       <div>
         <strong>Lapak Mustika Asih di Pasar</strong>
         <p>Jl. Raya Kopo Sayati, Blok A No.17 Sayati, Margahayu, Kota Bandung</p>
-        <p><strong>Jam Kerja:</strong> 03.00 – 12.00 WIB<br>Telp. <a href="tel:081321729198" class="text-white">081.321.729.198</a></p>
+        <p><strong>Jam Kerja:</strong> 03.00 – 12.00 WIB<br>Telp. <a href="tel:081321729198" class="text-white">081.321.729198</a></p>
       </div>
     </div>
     <div class="footer-credit">

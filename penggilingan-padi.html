@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Penggilingan Padi - Mustika Asih</title>
-  <meta name="description" content="Layanan penggilingan padi terbaik oleh Mustika Asih di Bandung, untuk hasil beras berkualitas.">
+  <title>Penjemuran Padi - Mustika Asih</title>
+  <meta name="description" content="Layanan penjemuran padi profesional dari Mustika Asih. Proses cepat, hasil kering optimal, cocok untuk penggilingan.">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -37,6 +37,7 @@
       background-color: #fff;
       padding: 2rem;
       border-radius: 8px;
+      margin-bottom: 40px;
     }
     .footer-cols {
       display: flex;
@@ -58,7 +59,19 @@
       text-align: center;
       margin-bottom: 1rem;
     }
+    .illustration-right {
+      float: right;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      max-width: 300px;
+      border-radius: 8px;
+    }
     @media (max-width: 768px) {
+      .illustration-right {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+      }
       .footer-cols {
         flex-direction: column;
         align-items: center;
@@ -78,16 +91,6 @@
       }
     }
   </style>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const currentPage = location.pathname.split('/').pop();
-      document.querySelectorAll('nav .nav-link').forEach(link => {
-        if (link.getAttribute('href') === currentPage) {
-          link.classList.add('fw-bold', 'text-primary');
-        }
-      });
-    });
-  </script>
 </head>
 <body>
   <header class="py-2 shadow-sm">
@@ -108,18 +111,16 @@
   </header>
 
   <section class="hero text-center">
-    <h1>Layanan Penggilingan Padi</h1>
+    <h1>Penjemuran Padi</h1>
   </section>
 
   <main class="container py-5">
-    <h2 class="mb-4">Proses dan Fasilitas</h2>
-    <p>Mustika Asih menyediakan layanan penggilingan padi modern yang mampu menghasilkan beras berkualitas tinggi, bersih, dan siap konsumsi. Proses dilakukan dengan mesin penggilingan yang terjaga dan efisien untuk memenuhi kebutuhan petani dan konsumen.</p>
-    <p>Lokasi penggilingan kami berada di:</p>
-    <ul>
-      <li>Jl. Bojong Tanjung No. 162, Kec. Katapang, Kab. Bandung</li>
-      <li>Jam Operasional: 09.00 – 17.00 WIB</li>
-    </ul>
-    <p>Silakan datang langsung atau hubungi kami untuk informasi lebih lanjut melalui halaman <a href="kontak.html">kontak</a>.</p>
+    <img src="assets/img/jemur-padi.jpg" alt="Proses Jemur Padi" class="illustration-right">
+    <h2 class="mb-4">Penjemuran Padi Tradisional & Modern</h2>
+    <p>Kami menyediakan area luas untuk penjemuran padi dengan sistem pengawasan harian, memastikan hasil jemur kering merata dan siap giling.</p>
+    <p>Penjemuran dilakukan di tempat terbuka dan berpagar, menjamin keamanan dan kebersihan padi selama proses penjemuran.</p>
+    <p>Kami juga siap membantu proses pembalikan dan pengangkutan hasil jemur bagi pelanggan.</p>
+    <p>Layanan ini terbuka bagi petani lokal maupun distributor gabah yang memerlukan jasa penjemuran profesional.</p>
   </main>
 
   <footer>
